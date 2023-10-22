@@ -161,3 +161,32 @@ iframe {
     z-index: 10000;
     position: relative;
 }
+
+.social-icon {
+    margin-left: 10px;
+    height: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin-right: auto;
+}
+
+body {
+    text-align: left;
+}
+a[href^="https://open.spotify.com/"],
+a[href^="https://music.apple.com/"],
+a[href^="https://www.youtube.com/"],
+a[href^="https://bobbymetro.bandcamp.com/"],
+a[href^="https://listen.tidal.com/"] {
+    color: #FF66FF; /* brighter neon pink fuchsia */
+    font-size: 1.5em;
+}
+img[src="rusticcover.png"] {
+    width: 50%;
+}
